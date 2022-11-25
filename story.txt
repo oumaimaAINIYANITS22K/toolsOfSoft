@@ -1,0 +1,275 @@
+Computer security, cybersecurity (cyber security), or information technology security (IT security) is the protection of computer systems and networks from information disclosure, theft of, or damage to their hardware, software, or electronic data, as well as from the disruption or misdirection of the services they provide.[1][2]
+
+The field has become of significance due to the expanded reliance on computer systems, the Internet,[3] and wireless network standards such as Bluetooth and Wi-Fi, and due to the growth of smart devices, including smartphones, televisions, and the various devices that constitute the Internet of things (IoT). Cybersecurity is also one of the significant challenges in the contemporary world, due to the complexity of information systems, both in terms of political usage and technology. Its primary goal is to ensure the system's dependability, integrity, and data privacy.[4][5]
+
+
+Contents
+1	History
+1.1	Failed offensive strategy
+2	Vulnerabilities and attacks
+2.1	Backdoor
+2.2	Denial-of-service attack
+2.3	Direct-access attacks
+2.4	Eavesdropping
+2.5	Multi-vector, polymorphic attacks
+2.6	Phishing
+2.7	Privilege escalation
+2.8	Reverse engineering
+2.9	Side-channel attack
+2.10	Social engineering
+2.11	Spoofing
+2.12	Tampering
+2.13	Malware
+3	Information security culture
+4	Systems at risk
+4.1	Financial systems
+4.2	Utilities and industrial equipment
+4.3	Aviation
+4.4	Consumer devices
+4.5	Large corporations
+4.6	Automobiles
+4.7	Government
+4.8	Internet of things and physical vulnerabilities
+4.9	Medical systems
+4.10	Energy sector
+5	Impact of security breaches
+6	Attacker motivation
+7	Computer protection (countermeasures)
+7.1	Security by design
+7.2	Security architecture
+7.3	Security measures
+7.4	Vulnerability management
+7.5	Reducing vulnerabilities
+7.6	Hardware protection mechanisms
+7.7	Secure operating systems
+7.8	Secure coding
+7.9	Capabilities and access control lists
+7.10	End user security training
+7.11	Digital hygiene
+7.12	Response to breaches
+7.13	Types of security and privacy
+8	Incident response planning
+9	Notable attacks and breaches
+9.1	Robert Morris and the first computer worm
+9.2	Rome Laboratory
+9.3	TJX customer credit card details
+9.4	Stuxnet attack
+9.5	Global surveillance disclosures
+9.6	Target and Home Depot breaches
+9.7	Office of Personnel Management data breach
+9.8	Ashley Madison breach
+9.9	Colonial Pipeline ransomware attack
+10	Legal issues and global regulation
+11	Role of government
+12	International actions
+12.1	Europe
+13	National actions
+13.1	Computer emergency response teams
+13.1.1	Canada
+13.1.2	China
+13.1.3	Germany
+13.1.4	India
+13.1.5	South Korea
+13.1.6	United States
+13.1.6.1	Legislation
+13.1.6.2	Standardized government testing services
+13.1.6.3	Agencies
+13.1.6.4	Computer emergency readiness team
+14	Modern warfare
+15	Careers
+15.1	Security analyst
+15.2	Security engineer
+15.3	Security architect
+15.4	Security administrator
+15.5	Chief Information Security Officer (CISO)
+15.6	Chief Security Officer (CSO)
+15.7	Data Protection Officer (DPO)
+15.8	Security Consultant/Specialist/Intelligence
+16	Terminology
+17	Notable scholars
+18	See also
+19	References
+20	Further reading
+History
+Since the Internet's arrival and with the digital transformation initiated in recent years, the notion of cybersecurity has become a familiar subject in both our professional and personal lives. Cybersecurity and cyber threats have been consistently present for the last 50 years of technological change. In the 1970s and 1980s, computer security was mainly limited to academia until the conception of the Internet, where, with increased connectivity, computer viruses and network intrusions began to take off. After the spread of viruses in the 1990s, the 2000s marked the institutionalization[clarification needed] of cyber threats and cybersecurity.
+
+The April 1967 session organized by Willis Ware at the Spring Joint Computer Conference, and the later publication of the Ware Report, were foundational moments in the history of the field of computer security.[6] Ware's work straddled the intersection of material, cultural, political, and social concerns.[6]
+
+A 1977 NIST publication[7] introduced the "CIA triad" of Confidentiality, Integrity, and Availability as a clear and simple way to describe key security goals.[8] While still relevant, many more elaborate frameworks have since been proposed.[9][10]
+
+However, in the 1970s and 1980s, there were no grave computer threats because computers and the internet were still developing, and security threats were easily identifiable. Most often, threats came from malicious insiders who gained unauthorized access to sensitive documents and files. Although malware and network breaches existed during the early years, they did not use them for financial gain. By the second half of the 1970s, established computer firms like IBM started offering commercial access control systems and computer security software products.[11]
+
+It started with Creeper in 1971. Creeper was an experimental computer program written by Bob Thomas at BBN. It is considered the first computer worm. In 1972, the first anti-virus software was created, called Reaper. It was created by Ray Tomlinson to move across the ARPANET and delete the Creeper worm.
+
+Between September 1986 and June 1987, a group of German hackers performed the first documented case of cyber espionage. The group hacked into American defense contractors, universities, and military base networks and sold gathered information to the Soviet KGB. The group was led by Markus Hess, who was arrested on 29 June 1987. He was convicted of espionage (along with two co-conspirators) on 15 Feb 1990.
+
+In 1988, one of the first computer worms, called the Morris worm, was distributed via the Internet. It gained significant mainstream media attention.
+
+In 1993, Netscape started developing the protocol SSL, shortly after the National Center for Supercomputing Applications (NCSA) launched Mosaic 1.0, the first web browser, in 1993. Netscape had SSL version 1.0 ready in 1994, but it was never released to the public due to many serious security vulnerabilities. These weaknesses included replay attacks and a vulnerability that allowed hackers to alter unencrypted communications sent by users. However, in February 1995, Netscape launched Version 2.0.
+
+Failed offensive strategy
+The National Security Agency (NSA) is responsible for the protection of U.S. information systems and also for collecting foreign intelligence.[12] These two duties are in conflict with each other. Protecting information systems includes evaluating software, identifying security flaws, and taking steps to correct the flaws, which is a defensive action. Collecting intelligence includes exploiting security flaws to extract information, which is an offensive action. Correcting security flaws makes the flaws unavailable for NSA exploitation.
+
+The agency analyzes commonly used software in order to find security flaws, which it reserves for offensive purposes against competitors of the United States. The agency seldom takes defensive action by reporting the flaws to software producers so that they can eliminate them.[13]
+
+The offensive strategy worked for a while, but eventually, other nations, including Russia, Iran, North Korea, and China, acquired their own offensive capability and have tended to use it against the United States. NSA contractors created and sold "click-and-shoot" attack tools to U.S. agencies and close allies, but eventually, the tools made their way to foreign adversaries. In 2016, NSAs own hacking tools were hacked, and they have been used by Russia and North Korea. NSA's employees and contractors have been recruited at high salaries by adversaries, anxious to compete in cyberwarfare.[13]
+
+For example, in 2007, the United States and Israel began exploiting security flaws in the Microsoft Windows operating system to attack and damage equipment used in Iran to refine nuclear materials. Iran responded by heavily investing in their own cyberwarfare capability, which they began using against the United States.[13]
+
+Vulnerabilities and attacks
+Main article: Vulnerability (computing)
+A vulnerability is a weakness in design, implementation, operation, or internal control. Most of the vulnerabilities that have been discovered are documented in the Common Vulnerabilities and Exposures (CVE) database.[citation needed] An exploitable vulnerability is one for which at least one working attack or exploit exists.[14] Vulnerabilities can be researched, reverse-engineered, hunted, or exploited using automated tools or customized scripts.[15][16] To secure a computer system, it is important to understand the attacks that can be made against it, and these threats can typically be classified into one of these categories below:
+
+Backdoor
+A backdoor in a computer system, a cryptosystem or an algorithm, is any secret method of bypassing normal authentication or security controls. They may exist for many reasons, including original design or poor configuration. They may have been added by an authorized party to allow some legitimate access, or by an attacker for malicious reasons; but regardless of the motives for their existence, they create a vulnerability. Backdoors can be very hard to detect, and backdoors are usually discovered by someone who has access to application source code or intimate knowledge of the operating system of the computer.
+
+Denial-of-service attack
+Denial of service attacks (DoS) are designed to make a machine or network resource unavailable to its intended users.[17] Attackers can deny service to individual victims, such as by deliberately entering a wrong password enough consecutive times to cause the victim's account to be locked, or they may overload the capabilities of a machine or network and block all users at once. While a network attack from a single IP address can be blocked by adding a new firewall rule, many forms of Distributed denial of service (DDoS) attacks are possible, where the attack comes from a large number of points – and defending is much more difficult. Such attacks can originate from the zombie computers of a botnet or from a range of other possible techniques, including reflection and amplification attacks, where innocent systems are fooled into sending traffic to the victim.
+
+Direct-access attacks
+An unauthorized user gaining physical access to a computer is most likely able to directly copy data from it. They may also compromise security by making operating system modifications, installing software worms, keyloggers, covert listening devices or using wireless microphones. Even when the system is protected by standard security measures, these may be bypassed by booting another operating system or tool from a CD-ROM or other bootable media. Disk encryption and Trusted Platform Module are designed to prevent these attacks.
+
+Eavesdropping
+Eavesdropping is the act of surreptitiously listening to a private computer "conversation" (communication), typically between hosts on a network. For instance, programs such as Carnivore and NarusInSight have been used by the Federal Bureau of Investigation (FBI) and NSA to eavesdrop on the systems of internet service providers. Even machines that operate as a closed system (i.e., with no contact to the outside world) can be eavesdropped upon by monitoring the faint electromagnetic transmissions generated by the hardware. TEMPEST is a specification by the NSA referring to these attacks.
+
+Multi-vector, polymorphic attacks
+Surfacing in 2017, a new class of multi-vector,[18] polymorphic[19] cyber threats combined several types of attacks and changed form to avoid cybersecurity controls as they spread.
+
+Phishing
+
+An example of a phishing email, disguised as an official email from a (fictional) bank. The sender is attempting to trick the recipient into revealing confidential information by "confirming" it at the phisher's website. Note the misspelling of the words received and discrepancy as recieved and discrepency, respectively. Although the URL of the bank's webpage appears to be legitimate, the hyperlink points at the phisher's webpage.
+Phishing is the attempt of acquiring sensitive information such as usernames, passwords, and credit card details directly from users by deceiving the users.[20] Phishing is typically carried out by email spoofing or instant messaging, and it often directs users to enter details at a fake website whose "look" and "feel" are almost identical to the legitimate one. The fake website often asks for personal information, such as login details and passwords. This information can then be used to gain access to the individual's real account on the real website. Preying on a victim's trust, phishing can be classified as a form of social engineering. Attackers are using creative ways to gain access to real accounts. A common scam is for attackers to send fake electronic invoices[21] to individuals showing that they recently purchased music, apps, or others, and instructing them to click on a link if the purchases were not authorized. A more strategic type of phishing is spear-phishing which leverages personal or organization-specific details to make the attacker appear like a trusted source. Spear-phishing attacks target specific individuals, rather than the broad net cast by phishing attempts.[22]
+
+Privilege escalation
+Privilege escalation describes a situation where an attacker with some level of restricted access is able to, without authorization, elevate their privileges or access level. For example, a standard computer user may be able to exploit a vulnerability in the system to gain access to restricted data; or even become "root" and have full unrestricted access to a system.
+
+Reverse engineering
+Reverse engineering is the process by which a man-made object is deconstructed to reveal its designs, code, and architecture, or to extract knowledge from the object; similar to scientific research, the only difference being that scientific research is about a natural phenomenon.[23]: 3 
+
+Side-channel attack
+Main article: Side-channel attack
+Any computational system affects its environment in some form. This effect it has on its environment, includes a wide range of criteria, which can range from electromagnetic radiation, to residual effect on RAM cells which as a consequent make a Cold boot attack possible, to hardware implementation faults that allow for access and or guessing of other values that normally should be inaccessible. In Side-channel attack scenarios, the attacker would gather such information about a system or network to guess its internal state and as a result access the information which is assumed by the victim to be secure.
+
+Social engineering
+Social engineering, in the context of computer security, aims to convince a user to disclose secrets such as passwords, card numbers, etc. or grant physical access by, for example, impersonating a senior executive, bank, a contractor, or a customer.[24] This generally involves exploiting peoples trust, and relying on their cognitive biases. A common scam involves emails sent to accounting and finance department personnel, impersonating their CEO and urgently requesting some action. In early 2016, the FBI reported that such "business email compromise" (BEC) scams had cost US businesses more than $2 billion in about two years.[25]
+
+In May 2016, the Milwaukee Bucks NBA team was the victim of this type of cyber scam with a perpetrator impersonating the team's president Peter Feigin, resulting in the handover of all the team's employees' 2015 W-2 tax forms.[26]
+
+Spoofing
+Main article: Spoofing attack
+Spoofing is an act of masquerading as a valid entity through the falsification of data (such as an IP address or username), in order to gain access to information or resources that one is otherwise unauthorized to obtain.[27][28] There are several types of spoofing, including:
+
+Email spoofing, is where an attacker forges the sending (From, or source) address of an email.
+IP address spoofing, where an attacker alters the source IP address in a network packet to hide their identity or impersonate another computing system.
+MAC spoofing, where an attacker modifies the Media Access Control (MAC) address of their network interface controller to obscure their identity, or to pose as another.
+Biometric spoofing, where an attacker produces a fake biometric sample to pose as another user.[29]
+Tampering
+Tampering describes a malicious modification or alteration of data. An intentional but unauthorized act resulting in the modification of a system, components of systems, its intended behavior, or data. So-called Evil Maid attacks and security services planting of surveillance capability into routers are examples.[30]
+
+Malware
+Malicious software (malware) installed on a computer can leak any information, such as personal information, business information and passwords, can give control of the system to the attacker, and can corrupt or delete data permanently.[31]
+
+Information security culture
+Employee behavior can have a big impact on information security in organizations. Cultural concepts can help different segments of the organization work effectively or work against effectiveness toward information security within an organization. Information security culture is the "...totality of patterns of behavior in an organization that contributes to the protection of information of all kinds."[32]
+
+Andersson and Reimers (2014) found that employees often do not see themselves as part of their organization's information security effort and often take actions that impede organizational changes.[33] Indeed, the Verizon Data Breach Investigations Report 2020, which examined 3,950 security breaches, discovered 30% of cybersecurity incidents involved internal actors within a company.[34] Research shows information security culture needs to be improved continuously. In ″Information Security Culture from Analysis to Change″, authors commented, ″It's a never-ending process, a cycle of evaluation and change or maintenance.″ To manage the information security culture, five steps should be taken: pre-evaluation, strategic planning, operative planning, implementation, and post-evaluation.[35]
+
+Pre-evaluation: To identify the awareness of information security within employees and to analyze the current security policies.
+Strategic planning: To come up with a better awareness program, clear targets need to be set. Assembling a team of skilled professionals is helpful to achieve it.
+Operative planning: A good security culture can be established based on internal communication, management buy-in, security awareness and a training program.[35]
+Implementation: Four stages should be used to implement the information security culture. They are:
+Commitment of the management
+Communication with organizational members
+Courses for all organizational members
+Commitment of the employees[35]
+Post-evaluation: To assess the success of the planning and implementation, and to identify unresolved areas of concern.
+Systems at risk
+The growth in the number of computer systems and the increasing reliance upon them by individuals, businesses, industries, and governments means that there are an increasing number of systems at risk.
+
+Financial systems
+The computer systems of financial regulators and financial institutions like the U.S. Securities and Exchange Commission, SWIFT, investment banks, and commercial banks are prominent hacking targets for cybercriminals interested in manipulating markets and making illicit gains.[36] Websites and apps that accept or store credit card numbers, brokerage accounts, and bank account information are also prominent hacking targets, because of the potential for immediate financial gain from transferring money, making purchases, or selling the information on the black market.[37] In-store payment systems and ATMs have also been tampered with in order to gather customer account data and PINs.
+
+Utilities and industrial equipment
+Computers control functions at many utilities, including coordination of telecommunications, the power grid, nuclear power plants, and valve opening and closing in water and gas networks. The Internet is a potential attack vector for such machines if connected, but the Stuxnet worm demonstrated that even equipment controlled by computers not connected to the Internet can be vulnerable. In 2014, the Computer Emergency Readiness Team, a division of the Department of Homeland Security, investigated 79 hacking incidents at energy companies.[38]
+
+Aviation
+The aviation industry is very reliant on a series of complex systems which could be attacked.[39] A simple power outage at one airport can cause repercussions worldwide,[40] much of the system relies on radio transmissions which could be disrupted,[41] and controlling aircraft over oceans is especially dangerous because radar surveillance only extends 175 to 225 miles offshore.[42] There is also potential for attack from within an aircraft.[43]
+
+In Europe, with the (Pan-European Network Service)[44] and NewPENS,[45] and in the US with the NextGen program,[46] air navigation service providers are moving to create their own dedicated networks.
+
+The consequences of a successful attack range from loss of confidentiality to loss of system integrity, air traffic control outages, loss of aircraft, and even loss of life.
+
+Consumer devices
+Desktop computers and laptops are commonly targeted to gather passwords or financial account information or to construct a botnet to attack another target. Smartphones, tablet computers, smart watches, and other mobile devices such as quantified self devices like activity trackers have sensors such as cameras, microphones, GPS receivers, compasses, and accelerometers which could be exploited, and may collect personal information, including sensitive health information. WiFi, Bluetooth, and cell phone networks on any of these devices could be used as attack vectors, and sensors might be remotely activated after a successful breach.[47]
+
+The increasing number of home automation devices such as the Nest thermostat are also potential targets.[47]
+
+Large corporations
+Large corporations are common targets. In many cases attacks are aimed at financial gain through identity theft and involve data breaches. Examples include the loss of millions of clients' credit card details by Home Depot,[48] Staples,[49] Target Corporation,[50] and the most recent breach of Equifax.[51]
+
+Medical records have been targeted in general identify theft, health insurance fraud, and impersonating patients to obtain prescription drugs for recreational purposes or resale.[52] Although cyber threats continue to increase, 62% of all organizations did not increase security training for their business in 2015.[53]
+
+Not all attacks are financially motivated, however: security firm HBGary Federal suffered a serious series of attacks in 2011 from hacktivist group Anonymous in retaliation for the firm's CEO claiming to have infiltrated their group,[54][55] and Sony Pictures was hacked in 2014 with the apparent dual motive of embarrassing the company through data leaks and crippling the company by wiping workstations and servers.[56][57]
+
+Automobiles
+See also: Autonomous car § Potential disadvantages, Automated driving system § Risks and liabilities, and Automotive hacking
+Vehicles are increasingly computerized, with engine timing, cruise control, anti-lock brakes, seat belt tensioners, door locks, airbags and advanced driver-assistance systems on many models. Additionally, connected cars may use WiFi and Bluetooth to communicate with onboard consumer devices and the cell phone network.[58] Self-driving cars are expected to be even more complex. All of these systems carry some security risk, and such issues have gained wide attention.[59][60][61]
+
+Simple examples of risk include a malicious compact disc being used as an attack vector,[62] and the car's onboard microphones being used for eavesdropping. However, if access is gained to a car's internal controller area network, the danger is much greater[58] – and in a widely publicized 2015 test, hackers remotely carjacked a vehicle from 10 miles away and drove it into a ditch.[63][64]
+
+Manufacturers are reacting in numerous ways, with Tesla in 2016 pushing out some security fixes "over the air" into its cars' computer systems.[65] In the area of autonomous vehicles, in September 2016 the United States Department of Transportation announced some initial safety standards, and called for states to come up with uniform policies.[66][67][68]
+
+Government
+Government and military computer systems are commonly attacked by activists[69][70][71] and foreign powers.[72][73][74][75] Local and regional government infrastructure such as traffic light controls, police and intelligence agency communications, personnel records, student records,[76] and financial systems are also potential targets as they are now all largely computerized. Passports and government ID cards that control access to facilities which use RFID can be vulnerable to cloning.
+
+Internet of things and physical vulnerabilities
+The Internet of things (IoT) is the network of physical objects such as devices, vehicles, and buildings that are embedded with electronics, software, sensors, and network connectivity that enables them to collect and exchange data.[77] Concerns have been raised that this is being developed without appropriate consideration of the security challenges involved.[78][79]
+
+While the IoT creates opportunities for more direct integration of the physical world into computer-based systems,[80][81] it also provides opportunities for misuse. In particular, as the Internet of Things spreads widely, cyberattacks are likely to become an increasingly physical (rather than simply virtual) threat.[82] If a front door's lock is connected to the Internet, and can be locked/unlocked from a phone, then a criminal could enter the home at the press of a button from a stolen or hacked phone. People could stand to lose much more than their credit card numbers in a world controlled by IoT-enabled devices. Thieves have also used electronic means to circumvent non-Internet-connected hotel door locks.[83]
+
+An attack that targets physical infrastructure and/or human lives is sometimes referred to as a cyber-kinetic attack. As IoT devices and appliances gain currency, cyber-kinetic attacks can become pervasive and significantly damaging.
+
+Medical systems
+See also: Medical device hijack and Medical data breach
+Medical devices have either been successfully attacked or had potentially deadly vulnerabilities demonstrated, including both in-hospital diagnostic equipment[84] and implanted devices including pacemakers[85] and insulin pumps.[86] There are many reports of hospitals and hospital organizations getting hacked, including ransomware attacks,[87][88][89][90] Windows XP exploits,[91][92] viruses,[93][94] and data breaches of sensitive data stored on hospital servers.[95][88][96][97] On 28 December 2016 the US Food and Drug Administration released its recommendations for how medical device manufacturers should maintain the security of Internet-connected devices – but no structure for enforcement.[98][99]
+
+Energy sector
+In distributed generation systems, the risk of a cyber attack is real, according to Daily Energy Insider. An attack could cause a loss of power in a large area for a long period of time, and such an attack could have just as severe consequences as a natural disaster. The District of Columbia is considering creating a Distributed Energy Resources (DER) Authority within the city, with the goal being for customers to have more insight into their own energy use and giving the local electric utility, Pepco, the chance to better estimate energy demand. The D.C. proposal, however, would "allow third-party vendors to create numerous points of energy distribution, which could potentially create more opportunities for cyber attackers to threaten the electric grid."[100]
+
+Impact of security breaches
+Serious financial damage has been caused by security breaches, but because there is no standard model for estimating the cost of an incident, the only data available is that which is made public by the organizations involved. "Several computer security consulting firms produce estimates of total worldwide losses attributable to virus and worm attacks and to hostile digital acts in general. The 2003 loss estimates by these firms range from $13 billion (worms and viruses only) to $226 billion (for all forms of covert attacks). The reliability of these estimates is often challenged; the underlying methodology is basically anecdotal."[101]
+
+However, reasonable estimates of the financial cost of security breaches can actually help organizations make rational investment decisions. According to the classic Gordon-Loeb Model analyzing the optimal investment level in information security, one can conclude that the amount a firm spends to protect information should generally be only a small fraction of the expected loss (i.e., the expected value of the loss resulting from a cyber/information security breach).[102]
+
+Attacker motivation
+As with physical security, the motivations for breaches of computer security vary between attackers. Some are thrill-seekers or vandals, some are activists, others are criminals looking for financial gain. State-sponsored attackers are now common and well resourced but started with amateurs such as Markus Hess who hacked for the KGB, as recounted by Clifford Stoll in The Cuckoo's Egg.
+
+Additionally, recent attacker motivations can be traced back to extremist organizations seeking to gain political advantage or disrupt social agendas.[103] The growth of the internet, mobile technologies, and inexpensive computing devices have led to a rise in capabilities but also to the risk to environments that are deemed as vital to operations. All critical targeted environments are susceptible to compromise and this has led to a series of proactive studies on how to migrate the risk by taking into consideration motivations by these types of actors. Several stark differences exist between the hacker motivation and that of nation state actors seeking to attack based on an ideological preference.[104]
+
+A standard part of threat modeling for any particular system is to identify what might motivate an attack on that system, and who might be motivated to breach it. The level and detail of precautions will vary depending on the system to be secured. A home personal computer, bank, and classified military network face very different threats, even when the underlying technologies in use are similar.[105]
+
+Computer protection (countermeasures)
+In computer security, a countermeasure is an action, device, procedure or technique that reduces a threat, a vulnerability, or an attack by eliminating or preventing it, by minimizing the harm it can cause, or by discovering and reporting it so that corrective action can be taken.[106][107][108]
+
+Some common countermeasures are listed in the following sections:
+
+Security by design
+Main article: Secure by design
+Security by design, or alternately secure by design, means that the software has been designed from the ground up to be secure. In this case, security is considered as a main feature.
+
+Some of the techniques in this approach include:
+
+The principle of least privilege, where each part of the system has only the privileges that are needed for its function. That way, even if an attacker gains access to that part, they only have limited access to the whole system.
+Automated theorem proving to prove the correctness of crucial software subsystems.
+Code reviews and unit testing, approaches to make modules more secure where formal correctness proofs are not possible.
+Defense in depth, where the design is such that more than one subsystem needs to be violated to compromise the integrity of the system and the information it holds.
+Default secure settings, and design to "fail secure" rather than "fail insecure" (see fail-safe for the equivalent in safety engineering). Ideally, a secure system should require a deliberate, conscious, knowledgeable and free decision on the part of legitimate authorities in order to make it insecure.
+Audit trails track system activity so that when a security breach occurs, the mechanism and extent of the breach can be determined. Storing audit trails remotely, where they can only be appended to, can keep intruders from covering their tracks.
+Full disclosure of all vulnerabilities, to ensure that the window of vulnerability is kept as short as possible when bugs are discovered.
+Security architecture
+The Open Security Architecture organization defines IT security architecture as "the design artifacts that describe how the security controls (security countermeasures) are positioned, and how they relate to the overall information technology architecture. These controls serve the purpose to maintain the system's quality attributes: confidentiality, integrity, availability, accountability and assurance services".[109]
+
+Techopedia defines security architecture as "a unified security design that addresses the necessities and potential risks involved in a certain scenario or environment. It also specifies when and where to apply security controls. The design process is generally reproducible." The key attributes of security architecture are:[110]
+
+the relationship of different components and how they depend on each other.
+determination of controls based on risk assessment, good practices, finances, and legal matters.
