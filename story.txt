@@ -272,4 +272,4 @@ The Open Security Architecture organization defines IT security architecture as 
 Techopedia defines security architecture as "a unified security design that addresses the necessities and potential risks involved in a certain scenario or environment. It also specifies when and where to apply security controls. The design process is generally reproducible." The key attributes of security architecture are:[110]
 
 the relationship of different components and how they depend on each other.
-determination of controls based on risk assessment, good practices, finances, and legal no.
+
